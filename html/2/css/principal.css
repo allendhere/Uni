@@ -1,0 +1,39 @@
+body{
+
+    background-color: black;
+
+}
+
+h1{
+
+    color: white;
+
+
+    /* define el tamaño del texto de un elemento HTML   "font" es "fuente" */
+
+    font-size: 70px;
+
+}
+
+p{
+
+    color: blue;
+
+}
+
+pre{
+
+    color: white;
+
+}
+
+h2{
+
+    color: white;
+
+
+    /* centrar horizontalmente */
+
+    text-align: center;
+
+}
