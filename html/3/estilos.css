@@ -1,0 +1,141 @@
+/*dar posicion a la pagina*/
+
+*{
+
+    font-family: "Mingzat", sans-serif;
+
+    margin: 0px;
+
+    padding: 0px;
+
+}
+
+/*cponfigurar el header*/
+
+.container{
+
+    width: 100%;
+    height: 100vb;
+    background-color: rgba(255, 83, 15, 0.596);
+
+}
+
+.cabesera{
+
+    width: 100%;
+
+    height: 50%;
+
+    background-color: black;
+
+    color: #fff;/*color texto*/
+
+    overflow: hidden;/*hasta donde termina*/
+
+    display: flex;
+
+    box-shadow: rgba(249, 33, 3, 0.5) 0px 0px 80px;
+
+    /*posecionar texto*/
+
+    align-content: center;
+
+    align-items: center;
+
+}
+
+/*estilo, parte uno*/
+
+.parte_1{
+
+    width: 20%;
+    height: 100%;
+
+    background-color: bisque;
+
+}
+
+.cuadro_1{
+
+    width: 50%;
+    height: 50%;
+
+    background-color: rgba(165, 42, 42, 0.5);
+
+    border: 1px solid rgb(0, 0, 0);
+
+    box-shadow: rgba(163, 160, 160, 0.5) 0px 0px 80px;
+
+    transform: translateY(50%) rotate(-40deg) translateX(-90%);
+
+}
+
+.cuadro_1_1{
+
+    width: 80%;
+    height: 80%;
+
+    background-color: rgba(165, 42, 42, 0.4);
+
+
+    border: 1px solid rgb(0, 0, 0);
+
+    transform: translateY(6%)
+}
+
+/*efecto hover*/
+
+.cuadro_1:hover{
+
+    background-color: chocolate;
+
+    box-shadow: rgba(235, 217, 20, 0.9) 0px 0px 20px;
+
+
+}
+
+/*ESTILO TEXTO*/
+
+.inf_header{
+
+    width: 50%;
+
+}
+
+.inf_header h1{
+
+    color: rgba(236, 64, 1, 0.6);
+
+    font-size: 60px;
+
+    margin: 2% 0px;
+
+}
+
+.inf_header hr{
+
+    border: none;
+
+    outline: none;
+
+    width: 35%;
+
+    height: 3px;
+
+    background-color: rgba(236, 64, 1, 0.6);
+
+    margin: 2% 0px;
+
+
+}
+
+.inf_header p{
+
+    color: rgba(236, 64, 1, 0.6);
+
+    font-size: 26px;
+
+    margin: 2% 0px;
+
+
+}
