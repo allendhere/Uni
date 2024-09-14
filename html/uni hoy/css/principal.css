@@ -1,0 +1,51 @@
+body{
+
+    background-color: black;
+
+    color: white;
+
+}
+
+#texto p{
+
+    color: white;
+
+    font-size: 20px;
+
+
+}
+
+#texto h1{
+
+    color: white;
+
+    font-size: 30px;
+
+
+}
+
+#video{
+
+
+    border: 2px solid rgb(235, 230, 184);
+
+}
+
+#video .text_video p{
+
+    color: white;
+
+    font-size: 20px;
+
+
+}
+
+
+#video .text_video h1{
+
+    color: white;
+
+    font-size: 30px;
+
+
+}
