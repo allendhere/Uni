@@ -1,0 +1,29 @@
+body{
+
+    background-color: black;
+    color: white;
+
+    
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+      
+
+}
+.nav-link {
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Efecto cuando te paras sobre un enlace */
+.nav-link:hover {
+    background-color: white;
+    color: var(--bs-primary); /* Color azul para el texto */
+}
+
+/* Pestaña activa */
+.nav-link.active {
+    background-color: white;
+    color: var(--bs-primary); /* Color azul para el texto */
+}
