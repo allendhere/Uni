@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <h1>MANEJO DE CONTROLES DE FORMULARIO</h1>
+
+    <form action="" method="">
+
+        <label for="lb_nombre">NOMBRE:  </label>
+
+        <input type="text" name="tx_nombre" autofocus>
+
+        <label for="lb_ape">APELLIDO:  </label>
+        <input type="text_apellido" id="lb_ape">
+
+
+        <label for="sl_tdoc"></label>
+        <select name="cb_tdoc" id="sl_tdoc">
+
+            <option value="">SELECCION</option>
+
+            <option value="1">C.C.</option>
+            <option value="2">PET</option>
+            <option value="3">T.I.</option>
+
+        </select>
+
+
+
+
+        <label for="lb_numero">NUMERO</label>
+        <input type="number" name="tx_numero" id="lb_numero">
+
+        <label for="lb_email">EMAIL</label>
+        <input type="email" name="tx_email" id="lb_email" required placeholder="ejem: @uniminunuto.edu.co">
+
+
+
+
+        <label for="lb_direccion">DIRECCION:  </label>
+        <input type="text_direccion" id="lb_direccion" size="50px">
+
+
+
+        <label for="lb_edad">edad</label>
+        <input type="number" name="tx_edad" id="lb_edad" min="0" max="120">
+
+        <hr>
+
+        <br>
+
+        <label for="lb_fn">FECHA NACIMIENTO</label>
+        <input type="date" name="tx_fn" id="lb_fn">
+
+        <label for="lb_fn">FECHA NACIMIENTO</label>
+        <input type="datetime-local" name="tx_fn" id="lb_fn">
+
+        <label for="lb_color">color favorito</label>
+        <input type="color" name="tx_color" id="lb_color">
+
+
+        <br>
+
+
+        <label for="lb_genero">GENERO:  </label>
+        <input type="radio" name="tx_genero" id="lb_genero" value="">
+
+
+        <label for="lb_femenino">F</label>
+        <input type="radio" name="tx_genero" id="lb_masculino" value="lb_masculino">
+        <label for="lb_masculino">M</label>
+
+        <input type="radio" name="tx_genero" id="lb_gey" value="lb_gey">
+        <label for="lb_gey">gey sin desicion</label>
+
+        <br><br>
+
+        <label for="lb_estu">NIVEL DE ESTUDIOS: </label>
+        <br>
+        <label for="lb_pri"> PRIMARIA</label>
+        <input type="chackbox" id="lb_pri" name="ck_estu" value="pri">
+
+        <label for="lb_pri"> BASICA</label>
+        <input type="chackbox" id="lb_pri" name="ck_estu" value="pri">
+
+        <label for="lb_pri"> MEDIA</label>
+        <input type="chackbox" id="lb_pri" name="ck_estu" value="pri">
+
+        <label for="lb_pri"> BACHILLERATO</label>
+        <input type="chackbox" id="lb_pri" name="ck_estu" value="pri">
+
+        <label for="lb_pri"> TECNICA</label>
+        <input type="chackbox" id="lb_pri" name="ck_estu" value="pri">
+
+        <label for="lb_pri"> TECNOLOGO</label>
+        <input type="chackbox" id="lb_pri" name="ck_estu" value="pri">
+
+        <label for="lb_pri"> PROFECIONAL</label>
+        <input type="chackbox" id="lb_pri" name="ck_estu" value="pri">
+        
+
+        <br><br>
+
+        <label for="lb_usu">USUARIO</label>
+        <input type="text" name="tx_usu" id="lb_usu" required placeholder="obligatorio">
+
+        <label for="lb_usu">CLAVE</label>
+        <input type="password" name="tx_usu" id="lb_usu" required placeholder="obligatorio">
+
+        <br>
+        <hr>
+
+
+        <input type="submit" name="btn:enviar" value="ENVIAR">
+
+    </form>
+
+
+
+
+
+
+    
+</body>
+</html>
