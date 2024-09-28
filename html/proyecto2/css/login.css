@@ -1,0 +1,54 @@
+/* cuarpo de pagina */
+body{
+
+    /* color de fondo */
+    background-color: black;
+
+    /* color obgetos de pagina */
+    color: white;
+
+
+}
+
+/* h1 */
+h1{
+
+    /* centrar texto */
+    text-align: center;
+
+}
+
+/* campo a llenar y boton */
+input{
+
+    /* redondeando el campo y boton */
+    border-radius: 6px;
+
+}
+
+/* coger todo el formulario */
+form{
+
+    /* centrar formulario */
+    text-align: center;
+
+}
+
+
+
+
+/* botones */
+/*
+    button{
+
+        /* color de fondo 
+        background-color: blue;
+
+        /* color de letra 
+        color: white;
+
+        /* bordes redondeados 
+        border-radius: 10px;
+
+    }
+*/

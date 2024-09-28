@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+
+    <!-- mi CSS -->
+
+    <link rel="stylesheet" href="../css/login.css">
+
+</head>
+<body>
+
+    <!-- para ajustarlo en todos los dispositivos -->
+    <div class="container">
+
+
+        <h1>LOGIN</h1>
+
+        <hr>
+
+        <br><br>
+
+        
+
+        <!-- inicio login -->
+        <!-- redireccionar a la pagina que queremos -->
+        <form action="../index.html" method="post">
+
+            <!-- nombre casilla -->
+            <label for="lb_usuario">USUARIO</label>
+
+            <!-- "autofocus" es para que se seleccione automaticamente en la casilla -->
+            <!-- "requereed" es para acer el espacio oblicagorio -->
+            <!-- campo de llanado -->          <!--vinculando con el nombre-->
+            <input type="text" name="txt_usu" id="lb_usuario" autofocus required>
+
+            <br>
+
+            <!-- nombre de casilla -->
+            <label for="lb_ps">CLAVE</label>
+
+            <!-- campo a llenas -->                            <!--requerido-->
+            <input type="password" name="txt_ps" id="lb_clave" required>
+
+            <br>
+
+            <!-- boton para ingresar a la pagina -->
+            <input type="submit" name="btn_enviar" value="LOGIN">
+
+
+        </form>
+        <!-- fin formulario login -->
+
+
+    </div>
+    <!-- fin container -->
+
+
+
+
+    <!-- ejemplo de boton 
+    <button>
+
+        <h4>entrar</h4>
+
+    </button>
+    -->
+
+
+    
+</body>
+</html>
