@@ -1,0 +1,17 @@
+body{
+
+    
+}
+
+/* botones */
+button{
+
+    /* largo */
+    height: 30px;
+    /* ancho */
+    width: auto;
+
+    /* borde redondeado */
+    border-radius: 4px;
+
+}
