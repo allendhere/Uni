@@ -28,7 +28,7 @@ body {
 }
 
 #menu .navbar {
-    border: 1px solid white; /* Cambia el color del borde */
+    border: 1px solid gray; /* Cambia el color del borde */
 }
 
 #menu .navbar-toggler {
