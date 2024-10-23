@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- llamar bootstrap -->
+    <link rel="stylesheet" href="{{url_for('static',filename='Bootstrap/css/bootstrap.css')}}">
+    <!-- llamar mi estio -->
+    <link rel="stylesheet" href="{{url_for('static',filename='style/mi_estilo.css')}}"> 
+    <title>{% block title%} {% endblock%}</title>
+</head>
+<body>
+    <div class="container">
+        
+        {% block contenido %}
+            <!-- contenido de otras paginas -->
+        {% endblock %}
+    </div>
+    
+
+
+    <!-- llamar js de bootstrap -->
+    <script src="{{url_for('static',filename='Bootstrap/js/bootstrap.bundle.js')}}"></script>
+</body>
+</html>
