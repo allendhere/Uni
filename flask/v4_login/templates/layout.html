@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- llamar bootstrap -->
+
+    <!-- css bootstrap -->
     <link rel="stylesheet" href="{{url_for('static',filename='Bootstrap/css/bootstrap.css')}}">
-    <!-- llamar mi estio -->
-    <link rel="stylesheet" href="{{url_for('static',filename='style/mi_estilo.css')}}"> 
+
+    <!-- mi css -->
+    <link rel="stylesheet" href="{{url_for('static',filename='style/css.css')}}"> 
+    
     <title>{% block title%} {% endblock%}</title>
 </head>
 <body>

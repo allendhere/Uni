@@ -1,10 +1,18 @@
-<!-- extender layout -->
+<!-- usar como base layout.html -->
 {% extends 'layout.html'%}
+
+
 <!-- da el nombre a la pestaña de la paginaactual -->
 {% block title%}inicial {% endblock%}
 
 {% block contenido %}
+
+    <!-- para re ulisisar el codigo de las opciones principales sin escribirlo otra vez -->
     {% include 'menu_ppal.html'  %}
+
+    <!-- texto en la pagina -->
     <h2> contenido principal</h2>
+
+    <h1>otro texto</h1>
 
 {% endblock %}

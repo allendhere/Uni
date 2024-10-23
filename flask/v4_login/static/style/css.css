@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* cuerpo */
+body {
+    background-color: black;
+
+    color: white;
+}
+
+/* menu principal*/
+#menu{
+    background-color: rgba(3, 62, 255, 0);
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+/*login*/
+#login{
+    margin: 25px;
+}
+
+/* menu */
+#menu .navbar-brand {
+    color: white;
+}
+
+#menu .navbar {
+    border: 1px solid white; /* Cambia el color del borde */
+}
+
+#menu .navbar-toggler {
+    background-color: white; /* Cambia el fondo del botón de toggler */
+}
+
+#menu .nav-link {
+    color: white; /* Cambia el color de los enlaces */
+}
+
+/* para el login */
+#login{
+
+    color: #000;
+
+}
