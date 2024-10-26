@@ -80,6 +80,15 @@ img:hover {
     transform: scale(1.05); /* Aumentar tamaño al pasar el mouse */
 }
 
+/* Excluir la imagen con la clase custom-image por estetica */
+.custom-image {
+
+    border: none; /* Sin borde */
+    box-shadow: none; /* Sin sombra */
+    border-radius: 0; /* Sin redondeo */
+
+}
+
 
 /* centrar los textos */
 h2{
