@@ -61,14 +61,29 @@ html, body {
 
 /* ajustar imagen con custom-image */
 .custom-image {
+
     width: 120px;  /* Cambia este valor según el ancho que desees */
     height: 120px; /* Cambia este valor según la altura que desees */
     object-fit: cover; /* Mantiene la proporción de la imagen y la recorta si es necesario */
+
 }
 
-/* hacer el login mas ancho */
+/* imagen principal */
+img {
+    border-radius: 8px; /* Redondear esquinas */
+    border: 2px solid rgba(255, 165, 0, 0.5); /* Color naranja fuego con transparencia */
+    box-shadow: 0 4px 20px rgba(255, 165, 0, 0.7); /* Sombra anaranjada */
+    transition: transform 0.3s; /* Transición suave */
+}
 
-.card {
-    max-width: 1500px; /* Aumenta el valor para hacerlo más ancho */
-    width: 100%;       /* Asegura que la tarjeta use todo el ancho posible */
+img:hover {
+    transform: scale(1.05); /* Aumentar tamaño al pasar el mouse */
+}
+
+
+/* centrar los textos */
+h2{
+
+    text-align: center;
+
 }

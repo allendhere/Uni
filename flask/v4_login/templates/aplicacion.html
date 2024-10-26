@@ -4,7 +4,28 @@
 {% block title%} APLICACION {% endblock%}
 
 {% block contenido %}
+
+    <!-- bloque del manu -->
+    {% include 'menu_ppal.html'  %}
     
+
+    <br>
+
     <h2> contenido principal de la aplicacion</h2>
+
+    <br>
+
+    <!-- imagen pokemon -->
+    <div class="col-md-4 mb-4">
+        <div class="card text-center bg-black text-white border border-warning">
+            <img src="{{url_for('static',filename='Imagenes/pokemonoff.webp')}}" class="img-fluid rounded" alt="Noticia">
+            <div class="card-body">
+                <h5 class="card-title">charmander evolution</h5>
+                <p class="card-text">Descripción.</p>
+                <a href="#" class="btn btn-outline-warning">Leer más</a> <!-- Botón con borde -->
+            </div>
+        </div>
+    </div>
+
 
 {% endblock %}
