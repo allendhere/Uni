@@ -5,6 +5,9 @@ from flask import Flask, render_template
 app=Flask(__name__)
 #crear funcion de inicio y rutas
 
+@app.route('/LOGIN')
+def Login():
+    return render_template('login.html')
 
 @app.route('/')
 def index():
@@ -17,10 +20,6 @@ def Enlace_1():
 @app.route('/ENLACE_2')
 def Enlace_2():
     return render_template('pagina_2.html')
-
-@app.route('/LOGIN')
-def Login():
-    return render_template('login.html')
 
 @app.route('/APLICACION')
 def Aplicacion():

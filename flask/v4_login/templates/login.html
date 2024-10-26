@@ -6,35 +6,35 @@
 <!-- COntenido de la pagina -->
 {% block contenido %}
 
+
 <section id="login">
     <div class="row">
         <div class="col-md-2"></div>
-        <div class="col-md-8">
+
+        <!-- hacelo mas ancho con el 12 -->
+        <div class="col-md-12">
             <div class="card mb-3" style="max-width: 940px;">
                 <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="{{url_for('static',filename='Imagenes/1_login.jpg')}}" class="img-fluid rounded-start"
-                            alt="...">
+                    <div class="col-md-12 text-center">
+                        <img src="{{url_for('static',filename='Imagenes/login')}}" class="img-fluid rounded custom-image" alt="...">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-12">
                         <div class="card-body">
                             <h5 class="card-title">INICIO DE SESIÓN</h5>
-                            <!-- inicio formulario -->
                             <form action="{{url_for('Aplicacion')}}" method="get">
                                 <div class="form-floating mb-3">
-                                    <input type="email" class="form-control" id="floatingInput"
-                                        placeholder="name@example.com">
+
+                                    <!-- autofocus y requerido -->
+                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" autofocus required>
                                     <label for="floatingInput">USUARIO</label>
                                 </div>
                                 <div class="form-floating">
-                                    <input type="password" class="form-control" id="floatingPassword"
-                                        placeholder="Password">
+                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
                                     <label for="floatingPassword">CONTRASEÑA</label>
                                 </div>
                                 <br>
                                 <div class="form-floating">
-                                    <select class="form-select" id="floatingSelect"
-                                        aria-label="Floating label select example">
+                                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
                                         <option selected>Seleccione</option>
                                         <option value="1">Gerente</option>
                                         <option value="2">Administrador</option>
@@ -42,21 +42,16 @@
                                     </select>
                                     <label for="floatingSelect">Seleccione Cargo</label>
                                 </div>
-
-
                                 <hr>
                                 <button type="submit" class="btn btn-primary">INGRESAR</button>
                             </form>
-                            <!-- fin formulario -->
-                            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
         <div class="col-md-2"></div>
     </div>
 </section>
+
 {% endblock %}
