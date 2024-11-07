@@ -26,6 +26,11 @@ def Aplicacion():
     return render_template('aplicacion.html')
 
 
+@app.route('/DBPERSONAJES')
+def DBPersonajes():
+    return render_template('DBPersonajes.html')
+
+
 
 #fin cuerpo 
 if __name__ == '__main__':

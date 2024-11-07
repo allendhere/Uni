@@ -113,3 +113,15 @@ h2{
     text-align: center;
 
 }
+
+
+
+
+
+.card-container { /*modificar el container (las tarjetas para organisarlas)*/
+    display: flex; /* Habilita el modelo de diseño Flexbox, permitiendo que los elementos dentro de este contenedor se organicen en una fila o columna según la configuración predeterminada (fila) */
+    gap: 16px; /* Define un espacio de 16px entre cada elemento dentro del contenedor Flexbox, creando separación entre las tarjetas */
+}
+.card-item { /*ara aplicar estilos específicos a cualquier elemento que tenga la clase card-item*/
+    flex: 1; /* Permite que cada tarjeta ocupe el mismo ancho, dividiendo el espacio disponible en partes iguales entre ellas */
+}    

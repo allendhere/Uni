@@ -8,52 +8,47 @@
 
     <h2> DRAGON BALL</h2>
 
-    <!-- imagen pokemon -->
-    <div class="col-md-4 mb-4">
-        <div class="card text-center bg-black text-white border border-warning">
-            <img src="{{url_for('static',filename='Imagenes/db/majin_vegeta_enojado.webp')}}" class="img-fluid rounded" alt="Noticia">
-            <div class="card-body">
-                <h5 class="card-title">majin vegeta</h5>
-                <p class="card-text">Descripción.</p>
-                <a href="{{url_for('Enlace_1')}}" class="btn btn-outline-warning">Leer más</a> <!-- Botón con borde -->
-            </div>
-        </div>
-    </div>
+    <div class="card-container"> <!--container para pderlos modificar en el css-->
 
-    <!-- goku -->
-    <div class="col-md-4 mb-4">
-        <div class="card text-center bg-black text-white border border-warning">
-            <img src="{{url_for('static',filename='Imagenes/db/goku.webp')}}" class="img-fluid rounded" alt="Noticia">
-            <div class="card-body">
-                <h5 class="card-title">goku</h5>
-                <p class="card-text">Descripción.</p>
-                <a href="{{url_for('Enlace_1')}}" class="btn btn-outline-warning">Leer más</a> <!-- Botón con borde -->
+        <!-- PERSONAJES -->
+        <div class="col-md-4 mb-4">
+            <div class="card text-center bg-black text-white border border-warning">
+                <img src="{{url_for('static',filename='Imagenes/db/personajes.webp')}}" class="img-fluid rounded" alt="Noticia">
+                <div class="card-body">
+                    <h5 class="card-title">PERSONAJES</h5>
+                    <p class="card-text">Descripción.</p>
+                    <a href="{{url_for('DBPersonajes')}}" class="btn btn-outline-warning">Leer más</a> <!-- Botón con borde -->
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- goku ultra -->
-    <div class="col-md-4 mb-4">
-        <div class="card text-center bg-black text-white border border-warning">
-            <img src="{{url_for('static',filename='Imagenes/db/gokuultra.webp')}}" class="img-fluid rounded" alt="Noticia">
-            <div class="card-body">
-                <h5 class="card-title">goku ultra</h5>
-                <p class="card-text">Descripción.</p>
-                <a href="{{url_for('Enlace_1')}}" class="btn btn-outline-warning">Leer más</a> <!-- Botón con borde -->
-            </div>
-        </div>
-    </div>
 
-    <!-- goku controlado -->
-    <div class="col-md-4 mb-4">
-        <div class="card text-center bg-black text-white border border-warning">
-            <img src="{{url_for('static',filename='Imagenes/db/gokublack.webp')}}" class="img-fluid rounded" alt="Noticia">
-            <div class="card-body">
-                <h5 class="card-title">goku black</h5>
-                <p class="card-text">Descripción.</p>
-                <a href="{{url_for('Enlace_1')}}" class="btn btn-outline-warning">Leer más</a> <!-- Botón con borde -->
+    
+        <!-- Kamehameha -->
+        <div class="card-item">
+            <div class="card text-center bg-black text-white border border-warning">
+                <img src="{{url_for('static',filename='Imagenes/db/poderes.webp')}}" class="img-fluid rounded" alt="Noticia">
+                <div class="card-body">
+                    <h5 class="card-title">Poderes</h5>
+                    <p class="card-text">Descripción.</p>
+                    <a href="{{url_for('Enlace_1')}}" class="btn btn-outline-warning">Leer más</a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Transformaciones -->
+        <div class="card-item">
+            <div class="card text-center bg-black text-white border border-warning">
+                <img src="{{url_for('static',filename='Imagenes/db/transformaciones.webp')}}" class="img-fluid rounded" alt="Noticia">
+                <div class="card-body">
+                    <h5 class="card-title">Transformaciones</h5>
+                    <p class="card-text">Descripción.</p>
+                    <a href="{{url_for('Enlace_1')}}" class="btn btn-outline-warning">Leer más</a>
+                </div>
             </div>
         </div>
     </div>
+    
+    
 
 {% endblock %}
