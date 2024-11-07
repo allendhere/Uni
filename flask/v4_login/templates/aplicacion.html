@@ -11,21 +11,22 @@
 
     <br>
 
-    <h2> contenido principal de la aplicacion</h2>
+    <h2> ANIME</h2> <!-- titulo -->
 
     <br>
 
-    <!-- imagen pokemon -->
-    <div class="col-md-4 mb-4">
-        <div class="card text-center bg-black text-white border border-warning">
-            <img src="{{url_for('static',filename='Imagenes/pokemonoff.webp')}}" class="img-fluid rounded" alt="Noticia">
-            <div class="card-body">
-                <h5 class="card-title">charmander evolution</h5>
-                <p class="card-text">Descripción.</p>
-                <a href="{{url_for('Enlace_1')}}" class="btn btn-outline-warning">Leer más</a> <!-- Botón con borde -->
-            </div>
-        </div>
-    </div>
+    <!-- link pokemon -->
+    <a href="{{url_for('Enlace_1')}}" class="btn btn-outline-warning pokemon-btn">POKEMON</a> <!-- Botón con borde -->
+
+
+    <!-- link dragonball -->
+    <a href="{{url_for('Enlace_2')}}" class="btn btn-outline-warning dragonball-btn">DRAGON BALL</a> <!-- dragonball-btn es por el css -->
+
+
+    <br>
+    <br>
+
+    
 
 
 {% endblock %}

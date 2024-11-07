@@ -76,6 +76,23 @@ img {
     transition: transform 0.3s; /* Transición suave */
 }
 
+/* para la base del botón de Dragon Ball */
+.dragonball-btn{
+    border-radius: 8px; /* Redondear esquinas */
+    /* color: white; para cambiar el color del texto */
+    border: 2px solid rgba(255, 0, 0, 0.5); /* Color rojo fuego con transparencia */
+    box-shadow: 0 4px 20px rgba(156, 35, 35, 0.7); /* Sombra anaranjada */
+    transition: transform 0.3s, background-color 0.3s, border-color 0.3s; /* Transición suave */
+}
+
+/* cuando pase el cursor por encima */
+.dragonball-btn:hover {
+    background-color: red; /* Cambia el fondo a rojo al pasar el cursor */
+    color: black; /* Cambia el color del texto a blanco */
+    border-color: red; /* Cambia el color del borde a rojo */
+}
+
+
 img:hover {
     transform: scale(1.05); /* Aumentar tamaño al pasar el mouse */
 }
