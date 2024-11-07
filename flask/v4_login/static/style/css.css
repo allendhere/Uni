@@ -125,3 +125,35 @@ h2{
 .card-item { /*ara aplicar estilos específicos a cualquier elemento que tenga la clase card-item*/
     flex: 1; /* Permite que cada tarjeta ocupe el mismo ancho, dividiendo el espacio disponible en partes iguales entre ellas */
 }    
+
+
+/* imagen inicial */
+.mi-imagen-especial {
+    border: 5px solid black; /* Agrega un borde azul de 5px */
+    border-radius: 10px; /* Redondear esquinas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra negra */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+/* imagen inicial */
+.mi-imagen-especial {
+    text-align: center;
+    border-radius: 8px; /* Redondear esquinas */
+    border: 2px solid rgba(0, 0, 0, 0.5); /* Color naranja fuego con transparencia */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7); /* Sombra anaranjada */
+    transition: transform 0.3s; /* Transición suave */
+    
+    /* para centrar la imagen:  */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 997px;
+    
+}
+.mi-imagen-especial:hover {/*cuando el mause este arriba*/
+    border-radius: 8px; /* Redondear esquinas */
+    border: 2px solid rgba(92, 92, 92, 0.5); /* Color naranja fuego con transparencia */
+    box-shadow: 0 4px 20px rgba(92, 92, 92, 0.5); /* Sombra anaranjada */
+    transition: transform 0.3s; /* Transición suave */
+}
