@@ -1,0 +1,10 @@
+<!-- extender layout -->
+{% extends 'pagina/layout.html'%}
+<!-- da el nombre a la pestaña de la paginaactual -->
+{% block title%} APLICACION {% endblock%}
+
+{% block contenido %}
+    {% include 'formularios/menu_formularios.html' %}
+    <h2> contenido principal de la aplicacion</h2>
+
+{% endblock %}

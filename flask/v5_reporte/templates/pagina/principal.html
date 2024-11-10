@@ -1,0 +1,10 @@
+<!-- extender layout -->
+{% extends 'pagina/layout.html'%}
+<!-- da el nombre a la pestaña de la paginaactual -->
+{% block title%}inicial {% endblock%}
+
+{% block contenido %}
+    {% include 'pagina/menu_ppal.html'  %}
+    <h2> contenido principal</h2>
+
+{% endblock %}

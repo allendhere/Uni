@@ -1,0 +1,31 @@
+<!-- extender layout -->
+{% extends 'pagina/layout.html'%}
+<!-- da el nombre a la pestaña de la paginaactual -->
+{% block title%} MODIFICAR {% endblock%}
+
+{% block contenido %}
+    {% include 'formularios/menu_formularios.html' %}
+    <h2> contenido modifcar</h2>
+
+    <div class="seccion">
+        <form action="XXXXX" method="post">
+            <div class="mb-3">
+                <label for="lb_cod">CODIGO</label>
+                <input type="text" name="tx_cod" id="lb_cod" aria-placeholder="Codigo_Producto">
+            </div>
+
+            <div class="mb-3">
+                <label for="lb_nom">PRODUCTO</label>
+                <input type="text" name="tx_nom" id="lb_nom" aria-placeholder="Nombre_Producto">
+            </div>
+
+            <a href="#"class="btn btn-success mb-5" role="button" >Guardar</a>
+            <a href="{{url_for('Reporte')}}"class="btn btn-success mb-5" role="button" >Regresar</a>
+
+
+        </form>
+    </div>
+
+
+
+{% endblock %}
