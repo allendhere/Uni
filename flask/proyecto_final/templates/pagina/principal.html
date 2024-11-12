@@ -8,16 +8,29 @@
 {% block contenido %}
 
     <!-- para re ulisisar el codigo de las opciones principales sin escribirlo otra vez -->
-    {% include 'pagina/estilos/menu_ppal.html'  %}
+    {% include 'pagina/estilos/menu_ppal.html'  %} <!--para el menu-->
+
+    {% include 'pagina/estilos/principal.html'  %}<!--css de la pagina--> 
 
     <br>
 
-    <!-- texto en la pagina -->
-    <h2> ANIME</h2>
-
     <br>
 
-    <img src="{{url_for('static', filename='Imagenes/anime6.webp')}}" class="img-fluid rounded mi-imagen-especial" alt="ANIME">
+
+
+    <!-- tenxto e imagen -->
+      <section>
+        <div class="hero-container">
+          <div class="environment"></div>
+          
+          <!-- letras -->
+            <div class="container">
+                <p class="glitch">
+                    nombre pagina
+                </p>
+            </div>
+        </div>
+      </section>
 
 
 {% endblock %}
