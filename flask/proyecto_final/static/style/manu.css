@@ -12,10 +12,7 @@
     border: 1px solid #000;
 }
 
-/*login*/
-#login{
-    margin: 25px;
-}
+
 
 /* menu */
 #menu .navbar-brand {
@@ -34,34 +31,10 @@
     color: white; /* Cambia el color de los enlaces */
 }
 
-/* para el login */
-#login{
 
-    color: #000;
 
-}
 
-/* centrar */
-html, body {
-    height: 100%;
-    margin: 0;
-}
 
-#login {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;    /* Centra verticalmente */
-    height: 100vh;         /* Altura completa de la ventana */
-}
-
-/* ajustar imagen con custom-image */
-.custom-image {
-
-    width: 120px;  /* Cambia este valor según el ancho que desees */
-    height: 120px; /* Cambia este valor según la altura que desees */
-    object-fit: cover; /* Mantiene la proporción de la imagen y la recorta si es necesario */
-
-}
 
 /* imagen principal */
 img {
