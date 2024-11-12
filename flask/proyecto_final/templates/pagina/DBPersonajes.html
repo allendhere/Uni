@@ -1,0 +1,69 @@
+<!-- extender layout -->
+{% extends 'pagina/layout.html'%}
+<!-- da el nombre a la pestaña de la paginaactual -->
+{% block title%} DBPersonajes {% endblock%}
+
+{% block contenido %}
+    {% include 'pagina/menu_ppal.html'  %}
+
+    <h2> PERSONAJES DE DRAGON BALL</h2>
+
+
+
+    
+    <!-- imagen pokemon -->
+    <div class="col-md-4 mb-4">
+        <div class="card text-center bg-black text-white border border-warning">
+            <img src="{{url_for('static',filename='Imagenes/db/personajes/majin_vegeta_enojado.webp')}}" class="img-fluid rounded" alt="Noticia">
+            <div class="card-body">
+                <h5 class="card-title">majin vegeta</h5>
+                <p class="card-text">Descripción.</p>
+                <a href="{{url_for('Enlace_1')}}" class="btn btn-outline-warning">Leer más</a> <!-- Botón con borde -->
+            </div>
+        </div>
+    </div>
+
+    <!-- goku -->
+    <div class="col-md-4 mb-4">
+        <div class="card text-center bg-black text-white border border-warning">
+            <img src="{{url_for('static',filename='Imagenes/db/personajes/goku.webp')}}" class="img-fluid rounded" alt="Noticia">
+            <div class="card-body">
+                <h5 class="card-title">goku</h5>
+                <p class="card-text">Descripción.</p>
+                <a href="{{url_for('Enlace_1')}}" class="btn btn-outline-warning">Leer más</a> <!-- Botón con borde -->
+            </div>
+        </div>
+    </div>
+
+    <!-- goku ultra -->
+    <div class="col-md-4 mb-4">
+        <div class="card text-center bg-black text-white border border-warning">
+            <img src="{{url_for('static',filename='Imagenes/db/personajes/gokuultra.webp')}}" class="img-fluid rounded" alt="Noticia">
+            <div class="card-body">
+                <h5 class="card-title">goku ultra</h5>
+                <p class="card-text">Descripción.</p>
+                <a href="{{url_for('Enlace_1')}}" class="btn btn-outline-warning">Leer más</a> <!-- Botón con borde -->
+            </div>
+        </div>
+    </div>
+
+    <!-- goku controlado -->
+    <div class="col-md-4 mb-4">
+        <div class="card text-center bg-black text-white border border-warning">
+            <img src="{{url_for('static',filename='Imagenes/db/personajes/gokublack.webp')}}" class="img-fluid rounded" alt="Noticia">
+            <div class="card-body">
+                <h5 class="card-title">goku black</h5>
+                <p class="card-text">Descripción.</p>
+                <a href="{{url_for('Enlace_1')}}" class="btn btn-outline-warning">Leer más</a> <!-- Botón con borde -->
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+
+
+
+{% endblock %}

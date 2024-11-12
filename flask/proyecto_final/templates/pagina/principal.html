@@ -1,0 +1,23 @@
+<!-- usar como base layout.html -->
+{% extends 'pagina/layout.html'%}
+
+
+<!-- da el nombre a la pestaña de la paginaactual -->
+{% block title%}inicial {% endblock%}
+
+{% block contenido %}
+
+    <!-- para re ulisisar el codigo de las opciones principales sin escribirlo otra vez -->
+    {% include 'pagina/estilos/menu_ppal.html'  %}
+
+    <br>
+
+    <!-- texto en la pagina -->
+    <h2> ANIME</h2>
+
+    <br>
+
+    <img src="{{url_for('static', filename='Imagenes/anime6.webp')}}" class="img-fluid rounded mi-imagen-especial" alt="ANIME">
+
+
+{% endblock %}
