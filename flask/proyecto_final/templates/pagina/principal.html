@@ -1,36 +1,28 @@
 <!-- usar como base layout.html -->
 {% extends 'pagina/layout.html'%}
 
-
 <!-- da el nombre a la pestaña de la paginaactual -->
 {% block title%}inicial {% endblock%}
 
 {% block contenido %}
 
-    <!-- para re ulisisar el codigo de las opciones principales sin escribirlo otra vez -->
-    {% include 'pagina/estilos/menu_ppal.html'  %} <!--para el menu-->
-
     {% include 'pagina/estilos/principal.html'  %}<!--css de la pagina--> 
-
-    <br>
-
-    <br>
-
-
 
     <!-- tenxto e imagen -->
       <section>
-        <div class="hero-container">
+        
           <div class="environment"></div>
           
           <!-- letras -->
             <div class="container">
                 <p class="glitch">
-                    nombre pagina
+                    animehives
                 </p>
+                
+                <a href="{{ url_for('Enlace_1') }}" class="boton">entrar</a>
+                
             </div>
         </div>
       </section>
-
 
 {% endblock %}
