@@ -1,6 +1,6 @@
 body{
 
-    background-color: black;
+    background-color: rgba(103, 88, 217, 0.6);
     color: white;
 
 }
@@ -143,10 +143,46 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.5;
-    filter: blur(5px);
-    background: url(https://images.unsplash.com/photo-1602136773736-34d445b989cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80)
+    opacity: 0.8;
+    filter: blur(4px);
+    background: url(https://images5.alphacoders.com/132/1329226.jpeg)
       center no-repeat;
     background-size: cover;
   }
   
+
+
+
+/* Estilos para el enlace como botón */
+.boton {
+    position: relative;
+    z-index: 10001;
+    display: inline-block; /* Asegura que se comporte como un botón */
+    border-radius: 20px; /* Bordes ligeramente más redondeados */
+    background-color: #1E90FF; /* Azul más claro */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    text-decoration: none; /* Eliminar subrayado */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+    cursor: pointer; /* Cursor de mano */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+    font-weight: bold; /* Texto más grueso */
+    font-size: 18px; /* Tamaño de fuente más grande */
+}
+
+.boton:hover {
+    background-color: #1C86EE; /* Azul más oscuro al pasar el ratón */
+    transform: translateY(-3px); /* Elevar el botón al pasar el ratón */
+}
+
+.boton:active {
+    background-color: #187bcd; /* Azul más oscuro al hacer clic */
+    transform: translateY(0); /* Resetear la elevación */
+}
+
+/* Opcional: mantener estilo de enlace cuando se enfoca con el teclado */
+.boton:focus {
+    outline: none; /* Eliminar el borde de enfoque por defecto */
+    box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.5); /* Añadir una sombra de enfoque */
+}
