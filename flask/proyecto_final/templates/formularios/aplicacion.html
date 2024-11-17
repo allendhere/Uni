@@ -7,26 +7,23 @@
 
     <!-- bloque del manu -->
     {% include 'pagina/estilos/menu_ppal.html'  %}
+
+    <div class="content">
+
+        <h2> ANIME</h2> <!-- titulo -->
+    
+        <br>
+    
+        <!-- link pokemon -->
+        <a href="{{url_for('Enlace_1')}}" class="btn btn-outline-warning pokemon-btn">POKEMON</a> <!-- Botón con borde -->
+    
+    
+        <!-- link dragonball -->
+        <a href="{{url_for('Enlace_2')}}" class="btn btn-outline-warning dragonball-btn">DRAGON BALL</a> <!-- dragonball-btn es por el css -->
+            
+    
+      </div>
     
 
-    <br>
-
-    <h2> ANIME</h2> <!-- titulo -->
-
-    <br>
-
-    <!-- link pokemon -->
-    <a href="{{url_for('Enlace_1')}}" class="btn btn-outline-warning pokemon-btn">POKEMON</a> <!-- Botón con borde -->
-
-
-    <!-- link dragonball -->
-    <a href="{{url_for('Enlace_2')}}" class="btn btn-outline-warning dragonball-btn">DRAGON BALL</a> <!-- dragonball-btn es por el css -->
-
-
-    <br>
-    <br>
-
-    
-
-
+   
 {% endblock %}
